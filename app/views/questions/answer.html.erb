@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coach's Answer</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Coach's Answer</h1>
+
+    <!-- Display the question and the answer -->
+    <div class="mt-3">
+      <p><strong>Your Question:</strong> <%= params[:question] %></p>
+      <p><strong>Coach's Answer:</strong> <%= @answer %></p>
+    </div>
+
+    <!-- Link back to the ask page -->
+    <a href="/ask" class="btn btn-primary mt-3">Ask Another Question</a>
+  </div>
+</body>
+</html>
